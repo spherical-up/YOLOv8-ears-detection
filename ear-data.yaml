@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Ear']
+
+roboflow:
+  workspace: socmetric
+  project: ear-15lzo
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/socmetric/ear-15lzo/dataset/3
